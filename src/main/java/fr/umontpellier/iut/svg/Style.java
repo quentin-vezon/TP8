@@ -27,6 +27,38 @@ public class Style {
      */
     private Double fillOpacity;
 
+    public String getFill() {
+        return fill;
+    }
+
+    public void setFill(String fill) {
+        this.fill = fill;
+    }
+
+    public String getStroke() {
+        return stroke;
+    }
+
+    public void setStroke(String stroke) {
+        this.stroke = stroke;
+    }
+
+    public Double getStrokeWidth() {
+        return strokeWidth;
+    }
+
+    public void setStrokeWidth(Double strokeWidth) {
+        this.strokeWidth = strokeWidth;
+    }
+
+    public Double getFillOpacity() {
+        return fillOpacity;
+    }
+
+    public void setFillOpacity(Double fillOpacity) {
+        this.fillOpacity = fillOpacity;
+    }
+
     /**
      * Renvoie la représentation du style sous forme d'une chaîne de caractères qui peut être insérée dans une
      * balise SVG.

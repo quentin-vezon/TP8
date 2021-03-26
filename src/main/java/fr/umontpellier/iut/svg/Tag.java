@@ -62,4 +62,12 @@ public abstract class Tag {
             return "<" + joiner.toString() + " />";
         }
     }
+
+    public Style getStyle() {
+        return style;
+    }
+
+    public void setStyle(Style style) {
+        this.style = style;
+    }
 }
