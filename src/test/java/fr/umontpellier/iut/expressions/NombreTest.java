@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class NombreTest {
 
-    @Disabled
+   // @Disabled
     @Test
     public void calculerValeur_0() {
         assertEquals(0, new Nombre(0).calculerValeur());

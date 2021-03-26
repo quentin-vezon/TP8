@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class OperationTest {
 
-    @Disabled
+   // @Disabled
     @Test
     void calculerValeur_10_fois_5() {
         Expression e = new Operation('*', new Nombre(10), new Nombre(5));

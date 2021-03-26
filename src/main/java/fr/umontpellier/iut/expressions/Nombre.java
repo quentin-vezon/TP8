@@ -1,12 +1,20 @@
 package fr.umontpellier.iut.expressions;
 
 public class Nombre implements Expression {
+
+    private double chiffre;
     public Nombre(double valeur) {
-        throw new RuntimeException("Constructeur à implémenter");
+        this.chiffre = valeur;
     }
 
     @Override
     public double calculerValeur() {
-        throw new RuntimeException("Méthode non-implémentée");
+         return chiffre;
+
+    }
+
+    @Override
+    public String toString() {
+        return "" + chiffre;
     }
 }
